@@ -1,4 +1,4 @@
-# go_insect
+# go insect
 # devops gateway go etcd client
 
 ```go
