@@ -38,7 +38,6 @@ func initEtcdCli() {
 }
 
 func putWithLease() {
-
 	key := fmt.Sprintf("%s_%s", INSECT_SERVER_NAME, uuid.NewV4().String())
 	value := INSECT_SERVER_URL
 	if INSECT_SERVER_PORT != 0 {
