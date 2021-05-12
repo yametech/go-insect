@@ -1,4 +1,4 @@
-package goInsect
+package go_insect
 
 import (
 	"context"
