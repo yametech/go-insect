@@ -1,4 +1,4 @@
-package go_insect
+package goInsect
 
 import (
 	"go.etcd.io/etcd/clientv3"
