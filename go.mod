@@ -1,4 +1,4 @@
-module github.com/yametech/go_insect
+module github.com/yametech/go-insect
 
 go 1.16
 

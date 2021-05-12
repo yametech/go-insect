@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/yametech/go-insect"
+go_insect"github.com/yametech/go-insect"
 )
 
 func main() {
