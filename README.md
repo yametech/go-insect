@@ -5,13 +5,13 @@
 package main
 
 import (
-	"github.com/yametech/go_insect"
+	"github.com/yametech/go-insect"
 )
 
 func main() {
 	go_insect.GlobalEtcdAddress = "http://127.0.0.1:2379" // etcd host
-	// go_insect.GlobalEtcdTTL = 60                          // ttl
-	// go_insect.INSECT_SERVER_URL = "0.0.0.0"               // register server host
+	// go-insect.GlobalEtcdTTL = 60                          // ttl
+	// go-insect.INSECT_SERVER_URL = "0.0.0.0"               // register server host
 	go_insect.INSECT_SERVER_PORT = 8080
 	go_insect.INSECT_SERVER_NAME = "goserver" // register server name
 	go go_insect.EtcdProxy()
