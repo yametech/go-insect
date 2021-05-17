@@ -3,7 +3,6 @@ package go_insect
 import (
 	"context"
 	"fmt"
-	"log"
 	"net"
 	"time"
 
@@ -56,7 +55,7 @@ func putWithLease() {
 		fmt.Println(err)
 		return
 	}
-	log.Println("lease-", key, "-", GlobalEtcdTTL, "sec")
+	//log.Println("lease-", key, "-", GlobalEtcdTTL, "sec")
 }
 
 func EtcdProxy() {
